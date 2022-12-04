@@ -8,7 +8,12 @@ https://github.com/adterskov/geekbrains-conteinerization/tree/master/homework/4.
 3. Создать PVC: `kubectl create -f pvc.yaml --namespace postgres`
 4. Создать deployment: `kubectl apply -f postgres-d.yaml --namespace postgres`
 ![image](./img1.png)
-3. Пробросить порт командой `kubectl port-forward pod/kubedoom-669f9c46c5-2c4nm 5666:5900 --namespace kubedoom`
-4. Подключить к VNC командой `vncviewer viewer localhost:5666`
+5. `kubectl get pod -o wide --namespace postgres`
 ![image](./img2.png)
-
+6. `kubectl run -t -i --rm --image postgres:10.13 test bash`
+![image](./img3.png)
+7. `psql -h 10.100.183.12 -U testuser testdatabase`
+![image](./img4.png)
+8. `CREATE TABLE testtable (testcolumn VARCHAR (50) );`
+![image](./img5.png)
+9.
