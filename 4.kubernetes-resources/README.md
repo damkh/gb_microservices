@@ -1,7 +1,6 @@
 # Микросервисная архитектура и контейнеризация
-## Урок 3. Введение в Kubernetes
+## Урок 4. 
 ### Задание
-> https://github.com/adterskov/geekbrains-conteinerization/tree/master/homework/3.kubernetes-intro
 
 ### Решение
 1. Создать Service account - применить манифест `srvacc.yaml`
