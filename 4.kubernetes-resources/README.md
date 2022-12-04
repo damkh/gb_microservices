@@ -16,4 +16,7 @@ https://github.com/adterskov/geekbrains-conteinerization/tree/master/homework/4.
 ![image](./img4.png)
 8. `CREATE TABLE testtable (testcolumn VARCHAR (50) );`
 ![image](./img5.png)
-9.
+9. Удаление и пересоздание pod-а
+![image](./img6.png)
+10. Проверка, что созданная ранее таблица никуда не делась
+![image](./img7.png)
