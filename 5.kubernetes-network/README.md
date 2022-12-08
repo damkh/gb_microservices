@@ -22,3 +22,4 @@ https://github.com/adterskov/geekbrains-conteinerization/tree/master/homework/5.
 ![image](./img8.png)
 10. Проверка: `curl -s -k 87.239.107.69 | grep "Powered by "`
 ![image](./img9.png)
+![image](./img10.png)
