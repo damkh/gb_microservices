@@ -11,8 +11,10 @@ https://github.com/adterskov/geekbrains-conteinerization/tree/master/homework/8.
 securityContext:
   allowPrivilegeEscalation: true
   privileged: true
-```
-1.3 Связь с класером Kubernetes выполнена через установка агента по инструкции https://docs.gitlab.com/ee/user/clusters/agent/index.html, так как при деплое выдавалась ошибка о невозможности найти файл `/tmp/kubeconfig`.  
+```  
+1.3 Так как при деплое выдавалась ошибка о невозможности найти файл `/tmp/kubeconfig`.  
+![image](./img7.png)
+cвязь с класером Kubernetes выполнена через установку агента по инструкции https://docs.gitlab.com/ee/user/clusters/agent/index.html  
 ![image](./img1.png)
 Однако строка `- export KUBECONFIG=/tmp/kubeconfig` видимо не влияет на ход развертывания. Если ее закомментировать, процесс проходит так же без ошибок.  
 
